@@ -1,5 +1,8 @@
 ![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)
 ![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-blueviolet?logo=.net)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/mastercodeon31415/Local-Hotspot-Manager/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/mastercodeon31415/Local-Hotspot-Manager)](https://github.com/mastercodeon31415/Local-Hotspot-Manager/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mastercodeon31415/Local-Hotspot-Manager)](https://github.com/mastercodeon31415/Local-Hotspot-Manager/stargazers)
 
 Local Hotspot Manager is a user-friendly Windows Forms application for creating and managing a local Wi-Fi hotspot on your Windows machine. A standout feature of this tool is its ability to create a hotspot that functions without an active internet connection, making it perfect for setting up local networks for gaming, file sharing, or device-to-device communication. This is achieved by leveraging a loopback adapter, ensuring that devices can connect to your PC and communicate with each other on a local network.
 
