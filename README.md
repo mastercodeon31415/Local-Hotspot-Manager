@@ -67,3 +67,17 @@ The Local Hotspot Manager uses a combination of PowerShell scripts and Windows A
     *   The application will create a scheduled task to handle this. You can disable this at any time by unchecking the box.
 
 ![Main Controls](https://github.com/user-attachments/assets/b85d683f-397d-4318-a2ad-f0e88fde8803)
+
+## Contributing
+
+Contributions are welcome! If you have suggestions for improvements or encounter any issues, please feel free to open an issue or submit a pull request.
+
+## Donation links
+
+Anything is super helpful! Anything donated helps me keep developing this program and others!
+- https://www.paypal.com/paypalme/lifeline42
+- https://cash.app/$codoen314
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/mastercodeon31415/Local-Hotspot-Manager/blob/main/LICENSE) file for details. 
