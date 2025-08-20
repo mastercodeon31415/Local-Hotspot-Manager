@@ -211,6 +211,7 @@ namespace HotspotManager
             this.btnPerformSetup.TabIndex = 2;
             this.btnPerformSetup.Text = "Perform One-Time Setup";
             this.btnPerformSetup.UseVisualStyleBackColor = true;
+            this.btnPerformSetup.Click += new System.EventHandler(this.btnPerformSetup_Click);
             // 
             // lblSetupDescription
             // 
