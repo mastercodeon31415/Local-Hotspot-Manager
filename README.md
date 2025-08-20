@@ -47,7 +47,7 @@ The Local Hotspot Manager uses a combination of PowerShell scripts and Windows A
     *   Click the **Perform One-Time Setup** button. The application will run the necessary PowerShell scripts to configure your system. This requires administrative privileges, so you may see a UAC prompt.
     *   Once the setup is complete, the main control panel will become available.
 
-    ![System Prerequisites Check](https://github.com/user-attachments/assets/468b0b59-a9a4-4f4f-b120-1f9b42d53dc2)
+    ![System Prerequisites Check](https://github.com/user-attachments/assets/a2acbbc6-c4a6-4ca8-a151-69c6cd1e491b)
 
 2.  **Configuring and Starting the Hotspot**
 

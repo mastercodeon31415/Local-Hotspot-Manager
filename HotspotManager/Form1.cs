@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using NativeDarkMode_Lib;
@@ -38,6 +39,8 @@ namespace HotspotManager
 
             var powerSettingCorrect = await CheckScriptCondition("if ((Get-ItemProperty -Path 'HKLM:\\SYSTEM\\CurrentControlSet\\Services\\icssvc\\Settings' -Name 'PeerlessTimeoutEnabled' -ErrorAction SilentlyContinue).PeerlessTimeoutEnabled -eq 0) { $true } else { $false }");
             Log($"[2/2] Power Saving Disabled: {(powerSettingCorrect ? "OK" : "MISSING")}", powerSettingCorrect);
+
+            await Task.Run(() => { Thread.Sleep(750); });
 
             if (loopbackExists && powerSettingCorrect)
             {
