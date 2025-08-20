@@ -1,9 +1,9 @@
-[PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)
+![PowerShell](https://img.shields.io/badge/PowerShell-5.1%2B-blue?logo=powershell)
 ![.NET Framework](https://img.shields.io/badge/.NET%20Framework-4.7.2-blueviolet?logo=.net)
 
 Local Hotspot Manager is a user-friendly Windows Forms application for creating and managing a local Wi-Fi hotspot on your Windows machine. A standout feature of this tool is its ability to create a hotspot that functions without an active internet connection, making it perfect for setting up local networks for gaming, file sharing, or device-to-device communication. This is achieved by leveraging a loopback adapter, ensuring that devices can connect to your PC and communicate with each other on a local network.
 
-![Main Application Window](<INSERT_MAIN_SCREENSHOT_LINK_HERE>)
+![Main Application Window](https://github.com/user-attachments/assets/b85d683f-397d-4318-a2ad-f0e88fde8803)
 
 ## Features
 
@@ -44,7 +44,7 @@ The Local Hotspot Manager uses a combination of PowerShell scripts and Windows A
     *   Click the **Perform One-Time Setup** button. The application will run the necessary PowerShell scripts to configure your system. This requires administrative privileges, so you may see a UAC prompt.
     *   Once the setup is complete, the main control panel will become available.
 
-    ![System Prerequisites Check](<INSERT_PREREQUISITES_SCREENSHOT_LINK_HERE>)
+    ![System Prerequisites Check](https://github.com/user-attachments/assets/468b0b59-a9a4-4f4f-b120-1f9b42d53dc2)
 
 2.  **Configuring and Starting the Hotspot**
 
@@ -63,4 +63,4 @@ The Local Hotspot Manager uses a combination of PowerShell scripts and Windows A
     *   If you want the hotspot to start automatically every time you log in to Windows, check the **Start Hotspot automatically on Login** box.
     *   The application will create a scheduled task to handle this. You can disable this at any time by unchecking the box.
 
-![Main Controls](<INSERT_MAIN_CONTROLS_SCREENSHOT_LINK_HERE>)
+![Main Controls](https://github.com/user-attachments/assets/b85d683f-397d-4318-a2ad-f0e88fde8803)
